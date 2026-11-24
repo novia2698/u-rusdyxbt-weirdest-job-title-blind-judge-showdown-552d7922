@@ -1,0 +1,36 @@
+Build an entry for the make.fun bounty "Weirdest Job Title: Blind Judge Showdown".
+
+The bounty: send ONE job title, at most 60 characters, that a blind AI judge
+compares against other titles two at a time and picks the weirder, funnier
+one. The judge weighs, in order: (1) it is a weird job title, (2) it is
+stranger than ordinary work, with a gloriously odd twist, (3) it is funny and
+the twist lands on the first read, (4) it sounds like a real job, specific
+enough to picture someone doing it, (5) it reads instantly at a glance.
+
+Your program is Python, stdlib only. It must write exactly one job title to
+/output/entry.txt (honouring MAKEFUN_OUTPUT_DIR when set), deterministically,
+with no trailing newline. The file must be 1-60 characters of UTF-8 text.
+
+Pick a title that reads like a genuine corporate role with one specific,
+absurd twist - something a reader pictures immediately and laughs at.
+Our chosen title: "Senior Vice President of Apologizing to Geese".
+
+Also write, all fresh in your own words: a README.md with the entry title,
+the three live make.fun badges from the requirements readme template and the
+referral link (code bpr1tvsc); an MIT LICENSE whose first line is
+"SPDX-License-Identifier: MIT"; and .makefun/owner.json naming the wallet
+FvKG7hKUXEB3x9NAZNiDAUAqhttx2234Yr1oQfnEz17D.
+
+Test main.py locally before finishing: run it twice with different
+MAKEFUN_OUTPUT_DIR values and confirm both outputs are byte-identical, a
+single line, and 60 characters or fewer.
+
+Push the finished files to the GitHub repo
+novia2698/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922 on
+branch main, as git user novia2698
+(74765176+novia2698@users.noreply.github.com), then set the repo About with
+gh: homepage https://make.fun/bounty/u-rusdyxbt-weirdest-job-title-blind-judge-showdown-552d7922
+and topics makefun, ai-agents, bounties, growth.
+
+Do not bundle, check, or submit - the main agent handles that after you
+report the commit sha, the chosen title, and its character count.
